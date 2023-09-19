@@ -11,7 +11,7 @@ medailonek zobrazen na úvodní stránce.
    zvol `New→Directory` a zadej jméno adresáře.
 1. V adresáři `/src/main/resources/static/` (případně v jeho podadresářích) vytvoř/nakopíruj soubory potřebné pro web.
 1. Hlavní soubor, který se bude zobrazovat v prohlížeči, musí být přímo v adresáři `static` a musí se jmenovat `index.html`. Další soubory mohou být v podadresářích. 
-1. Zkontroluj si v prohlížeči, že medailonek vypadá podle tvých představ.
+1. Zkontroluj si v prohlížeči na adrese http://localhost:8080, že medailonek vypadá podle tvých představ.
 1. *Commitni* svou úpravu do lokálního git repository.
 1. *Pushni* svou úpravu do vzdáleného repository na svém účtu na GitHubu.
 1. Zkontroluj na GitHubu, že se tam objevil tvůj poslední commit a že v adresáři `/src/main/resources/static/` jsou všechny potřebné soubory.
