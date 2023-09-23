@@ -1,0 +1,78 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: 'Courier', serif;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-family: 'Courier New', cursive;
+    color: #332a2d;
+}
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 20px;
+    text-align: center;
+}
+/*obrázek profilovky*/
+.profil {
+    float: right;
+    margin: 0 0 60px 30px;
+    width: 30%;
+    max-width: 200px;
+    height: auto;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.sekce {
+    padding: 20px 0;
+}
+
+.obsah {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 960px;
+}
+
+.omne {
+    background: lightpink;
+    text-align: justify;
+}
+
+.zivotopis {
+    background: lightblue;
+}
+
+.socky {
+    background: lightgoldenrodyellow;
+}
+
+.odkazy {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Paticka */
+footer {
+    padding: 20px 0;
+    text-align: center;
+    color: #332a2d;
+    font-family: 'Courier New', cursive;
+}
