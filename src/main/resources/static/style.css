@@ -1,18 +1,20 @@
+/* box model */
 *, *:before, *:after {
     box-sizing: border-box;
 }
 
+/* společné nastavení */
 body {
     margin: 0;
     padding: 0;
-    font-size: 18px;
-    font-family: 'Courier', serif;
-    line-height: 1.6;
+    font-size: 19px;
+    font-family: 'Courier New', serif;
+    line-height: 1.5;
 }
 
 h1, h2, h3 {
     font-family: 'Courier New', cursive;
-    color: #332a2d;
+    color: #2F4F4F;
 }
 
 h1 {
@@ -39,6 +41,7 @@ h3 {
     border-radius: 50%;
 }
 
+/* sekce a třídy */
 .sekce {
     padding: 20px 0;
 }
@@ -69,10 +72,10 @@ h3 {
 }
 
 
-/* Paticka */
+/* paticka */
 footer {
     padding: 20px 0;
     text-align: center;
-    color: #332a2d;
+    color: #2F4F4F;
     font-family: 'Courier New', cursive;
 }
